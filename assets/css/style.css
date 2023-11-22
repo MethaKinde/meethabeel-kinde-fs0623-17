@@ -20,6 +20,11 @@ nav {
     padding: 1.5rem;
     border-radius: 80px;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+
 }
 
 nav img {
@@ -30,4 +35,12 @@ nav div {
     background-color: #ffdf7f;
     border-radius: 80px;
     padding: 1.5rem;
+    margin: 1rem;
+    flex: 0 1 auto;
+}
+
+/* MAIN */
+
+img {
+    max-width: 100%;
 }
