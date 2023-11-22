@@ -1,0 +1,33 @@
+/* IMPOSTAZIONI GENERALI */
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    padding: 15px;
+    color: #732104;
+}
+
+/* HEADER */
+
+header {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #fef7e2;
+    padding: 1.5rem;
+    border-radius: 80px;
+    display: flex;
+}
+
+nav img {
+    width: 1rem;
+}
+
+nav div {
+    background-color: #ffdf7f;
+    border-radius: 80px;
+    padding: 1.5rem;
+}
